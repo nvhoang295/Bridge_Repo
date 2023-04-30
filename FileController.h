@@ -3,7 +3,6 @@
 #include <fstream>
 #include "UtilsController.h"
 #include "SortingAlgor.h"
-#include "StructModels.h"
 #include "Student.h"
 
 #include <iostream>
@@ -27,5 +26,6 @@ public:
 	static void writeFile(string fileName, float *&arr, int size);
 	static void writeFile(string fileName, string *&arr, int size);
 	static void writeFile(string fileName, vector<Student> &students, int size);
+	static void writeLogFile(string fileName, string content);
 };
 

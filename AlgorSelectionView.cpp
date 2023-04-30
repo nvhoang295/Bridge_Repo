@@ -1,14 +1,13 @@
 #include "AlgorSelectionView.h"
 
 void AlgorSelectionView::renderAlgorRecord(int index, SortingAlgor data) {
-	cout << setw(2) << right << index + 1 << " | ";
-	cout << setw(20) << left << data.getAlgorName() << " | ";
-	cout << setw(10) << right << right << data.getBestTime() << " | ";
-	cout << setw(10) << right << data.getAvgTime() << " | ";
-	cout << setw(10) << right << data.getWorstTime() << " | ";
-	cout << setw(9) << right << data.getAuxSpace() << " | ";
-	cout << setw(6) << right;
-	data.getIsStable() ? cout << "YES" << endl : cout << "NO" << endl;
+	cout << setw(2) << right << index + 1 << " | "
+		<< setw(20) << left << data.getAlgorName() << " | "
+		<< setw(10) << right << right << data.getBestTime() << " | "
+		<< setw(10) << right << data.getAvgTime() << " | "
+		<< setw(10) << right << data.getWorstTime() << " | "
+		<< setw(9) << right << data.getAuxSpace() << " | "
+		<< setw(6) << right << data.getIsStable() ? "YES\n" : "NO\n";
 }
 
 void AlgorSelectionView::renderAlgorList(vector<SortingAlgor> datas, bool* selectedAlgors, size_t size, bool haveSelected) {

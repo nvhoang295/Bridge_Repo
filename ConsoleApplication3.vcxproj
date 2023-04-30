@@ -128,29 +128,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgorSelectionView.cpp" />
-    <ClCompile Include="BasicSort.cpp" />
+    <ClCompile Include="BasicSortImpl.cpp" />
     <ClCompile Include="BenchmarksResultView.cpp" />
-    <ClCompile Include="BubbleSort.cpp" />
-    <ClCompile Include="Complexity.cpp" />
+    <ClCompile Include="BubbleSortImpl.cpp" />
+    <ClCompile Include="ComplexityImpl.cpp" />
     <ClCompile Include="ConsoleApplication3.cpp" />
-    <ClCompile Include="DataInitController.cpp" />
-    <ClCompile Include="DataSet.cpp" />
-    <ClCompile Include="Decorator.cpp" />
-    <ClCompile Include="FileController.cpp" />
+    <ClCompile Include="DataInitControllerImpl.cpp" />
+    <ClCompile Include="DataSetImpl.cpp" />
+    <ClCompile Include="DecoratorImpl.cpp" />
+    <ClCompile Include="FileControllerImpl.cpp" />
     <ClCompile Include="FileSelectionView.cpp" />
-    <ClCompile Include="HeapSort.cpp" />
-    <ClCompile Include="InputController.cpp" />
-    <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="HeapSortImpl.cpp" />
+    <ClCompile Include="InputControllerImpl.cpp" />
+    <ClCompile Include="InsertionSortImpl.cpp" />
     <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="Major.cpp" />
-    <ClCompile Include="MergeSort.cpp" />
-    <ClCompile Include="Person.cpp" />
-    <ClCompile Include="QuickSort.cpp" />
-    <ClCompile Include="SelectionSort.cpp" />
-    <ClCompile Include="SortingAlgor.cpp" />
-    <ClCompile Include="StructModels.cpp" />
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="UtilsController.cpp" />
+    <ClCompile Include="MajorImpl.cpp" />
+    <ClCompile Include="MergeSortImpl.cpp" />
+    <ClCompile Include="PersonImpl.cpp" />
+    <ClCompile Include="QuickSortImpl.cpp" />
+    <ClCompile Include="SelectionSortImpl.cpp" />
+    <ClCompile Include="SortingAlgorImpl.cpp" />
+    <ClCompile Include="StudentImpl.cpp" />
+    <ClCompile Include="UtilsControllerImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorSelectionView.h" />
@@ -173,7 +172,6 @@
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="SortingAlgor.h" />
-    <ClInclude Include="StructModels.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="UtilsController.h" />
   </ItemGroup>

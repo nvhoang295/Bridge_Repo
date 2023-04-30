@@ -1,2 +1,20 @@
-﻿  ConsoleApplication3.cpp
+﻿  BubbleSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\BubbleSortImpl.cpp(45,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ComplexityImpl.cpp
+  DataSetImpl.cpp
+  HeapSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\HeapSortImpl.cpp(135,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  InsertionSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\InsertionSortImpl.cpp(52,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MajorImpl.cpp
+  MergeSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\MergeSortImpl.cpp(171,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  PersonImpl.cpp
+  QuickSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\QuickSortImpl.cpp(155,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SelectionSortImpl.cpp
+D:\Entertainment\Pet_Projects\ConsoleApplication3\SelectionSortImpl.cpp(44,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SortingAlgorImpl.cpp
+  StudentImpl.cpp
+  Generating Code...
   ConsoleApplication3.vcxproj -> D:\Entertainment\Pet_Projects\ConsoleApplication3\x64\Debug\ConsoleApplication3.exe

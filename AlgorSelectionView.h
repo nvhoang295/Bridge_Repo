@@ -1,7 +1,6 @@
 #pragma once
 #include <iomanip>
 #include "FileController.h"
-#include "StructModels.h"
 #include "InputController.h"
 #include "Decorator.h"
 #include "SortingAlgor.h"
