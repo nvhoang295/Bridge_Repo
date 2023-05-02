@@ -12,11 +12,11 @@
 #include "QuickSort.h"
 #include "HeapSort.h"
 
+#include "AlgorSelectionView.h"
 
 #include "FileController.h"
 #include "DataInitController.h"
 
-#include "AlgorSelectionView.h"
 //#include "UtilsController.h"
 
 using namespace std::chrono;
@@ -26,7 +26,19 @@ using namespace std::chrono;
 
 
 int main() {
-	//int choice = AlgorSelectionView::renderAlgorSelection
+	vector<SortingAlgor> datas;
+	//string fileName = "Algors_infor.txt";
+	//FileController::readFile(fileName, datas);
+	//datas.push_back(SortingAlgor("hi", "lo", "eve", "hihi", "ha", 1));
+	SortingAlgor temp = SortingAlgor("hi", "lo", "eve", "hihi", "ha", 1);
+	cout << datas.size() << endl;
+
+
+	//size_t choice = AlgorSelectionView::renderMainView();
+	// 
+	// 
+	// 
+	// 
 	//string fileName = "Datas//string_datetime_1000_rand.txt";
 	//FileController::createStringFile(fileName, 1000, 1999, 2004);
 
@@ -42,7 +54,7 @@ int main() {
 	//string fileName = "Datas//int_2000_rand.txt";
 
 
-	string size[7] = { "1000", "2000", "3000", "5000", "10000", "20000", "30000" };
+	/*string size[7] = { "1000", "2000", "3000", "5000", "10000", "20000", "30000" };
 	string log = "";
 	string logPath = "Logs//";
 
@@ -103,7 +115,7 @@ int main() {
 	logPath += "_";
 	logPath += order;
 	logPath += ".txt";
-	cout << logPath << endl;
+	cout << logPath << endl;*/
 
 	//FileController::writeLogFile(logPath, log);
 

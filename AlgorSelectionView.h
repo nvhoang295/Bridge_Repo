@@ -11,6 +11,7 @@ private:
 	static void renderAlgorList(vector<SortingAlgor> datas, bool *selectedAlgors, size_t size, bool haveSelected);
 
 public:
-	static size_t renderAlgorSelection();
+	static size_t renderMainView();
+	static void concatFilePath(string& path, size_t choice);
 };
 

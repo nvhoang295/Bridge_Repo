@@ -1,9 +1,10 @@
 #pragma once
+
 #include <string>
 #include <functional>
 //#include <algorithm>
-#include "UtilsController.h"
 #include "Student.h"
+#include "UtilsController.h"
 using namespace std;
 class BasicSort {
 public:
@@ -15,6 +16,6 @@ public:
 	virtual void sort(int arr[], int n, function<bool(int, int)> cmp) = 0;
 	virtual void sort(int arr[], int n, function<bool(float, float)> cmp) = 0;
 	virtual void sort(int arr[], int n, function<bool(string, string)> cmp) = 0;
-	//virtual void sort(vector<Student>& students, function<bool(Student, Student)> cmp);
+	//virtual void sort(vector<Student>& students, function<bool(Student, Student)> cmp) {}
 };
 

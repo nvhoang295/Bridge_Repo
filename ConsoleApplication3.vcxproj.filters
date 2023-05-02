@@ -50,40 +50,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ComplexityImpl.cpp">
+    <ClCompile Include="Complexity.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SortingAlgorImpl.cpp">
+    <ClCompile Include="SortingAlgor.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BasicSortImpl.cpp">
+    <ClCompile Include="BasicSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BubbleSortImpl.cpp">
+    <ClCompile Include="BubbleSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SelectionSortImpl.cpp">
+    <ClCompile Include="SelectionSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InsertionSortImpl.cpp">
+    <ClCompile Include="InsertionSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MergeSortImpl.cpp">
+    <ClCompile Include="MergeSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QuickSortImpl.cpp">
+    <ClCompile Include="QuickSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HeapSortImpl.cpp">
+    <ClCompile Include="HeapSort.cpp">
       <Filter>Models\Algor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataSetImpl.cpp">
+    <ClCompile Include="DataSet.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileControllerImpl.cpp">
+    <ClCompile Include="FileController.cpp">
       <Filter>Controllers\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UtilsControllerImpl.cpp">
+    <ClCompile Include="UtilsController.cpp">
       <Filter>Controllers\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ConsoleApplication3.cpp">
@@ -98,26 +98,29 @@
     <ClCompile Include="BenchmarksResultView.cpp">
       <Filter>Views\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DecoratorImpl.cpp">
+    <ClCompile Include="Decorator.cpp">
       <Filter>Views\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputControllerImpl.cpp">
+    <ClCompile Include="InputController.cpp">
       <Filter>Controllers\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Inventory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PersonImpl.cpp">
+    <ClCompile Include="Person.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MajorImpl.cpp">
+    <ClCompile Include="Major.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StudentImpl.cpp">
+    <ClCompile Include="Student.cpp">
       <Filter>Models\Infor\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataInitControllerImpl.cpp">
+    <ClCompile Include="DataInitController.cpp">
       <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatatypeSelectionView.cpp">
+      <Filter>Views\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +189,9 @@
     </ClInclude>
     <ClInclude Include="DataInitController.h">
       <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatatypeSelectionView.h">
+      <Filter>Views\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

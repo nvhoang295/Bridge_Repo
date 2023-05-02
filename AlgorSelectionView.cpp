@@ -32,24 +32,27 @@ void AlgorSelectionView::renderAlgorList(vector<SortingAlgor> datas, bool* selec
 	}
 }
 
-size_t AlgorSelectionView::renderAlgorSelection() {
+size_t AlgorSelectionView::renderMainView() {
 	vector<SortingAlgor> datas;
-	string fileName = "Datas//Algors_infor.txt";
-	SortingAlgor::readFile(fileName, datas);
-	size_t size = datas.size(), choice, cnt = 0;
-	bool selectedAlgors[10]{ 0 }, haveDisplaySelected = 0;
-	do {
-		AlgorSelectionView::renderAlgorList(datas, selectedAlgors, size, 0);
-		if (haveDisplaySelected) {
-			AlgorSelectionView::renderAlgorList(datas, selectedAlgors, size, 1);
-		}
-		InputController::inputChoice(choice, size);
-		selectedAlgors[choice - 1] = true;
-		haveDisplaySelected = 1;
-		++cnt;
-		if (cnt == size) {
-			break;
-		}
-	} while (choice != size + 1);
-	return choice;
+	string fileName = "Algors_infor.txt";
+	FileController::readFile(fileName, datas);
+	//cout << datas.size() << endl;
+	//size_t size = datas.size(), choice, cnt = 0;
+	//bool selectedAlgors[10]{ 0 }, haveDisplaySelected = 0;
+	//do {
+	//	AlgorSelectionView::renderAlgorList(datas, selectedAlgors, size, 0);
+	//	if (haveDisplaySelected) {
+	//		AlgorSelectionView::renderAlgorList(datas, selectedAlgors, size, 1);
+	//	}
+	//	InputController::inputChoice(choice, size);
+	//	selectedAlgors[choice - 1] = true;
+	//	haveDisplaySelected = 1;
+	//	++cnt;
+	//	if (cnt == size) {
+	//		break;
+	//	}
+	//} while (choice != size + 1);
+	//return choice;
+	return 0;
 }
+
